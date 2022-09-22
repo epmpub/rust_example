@@ -1,21 +1,72 @@
 <ul class="toc no-parts">
     <li>
-        <span class="section-number">1. </span>Hello World 
+        <span class="section-number">1. </span>Hello World
     </li>
     <li>
         <span class="section-number">2. </span>Primitives 原生类型
     </li>
     <li>
         <span class="section-number">3. </span>Custom Types 自定义类型
+        <ul>
+            <li>
+                <span class="section-number">3.1 </span>Structures 结构体
+            </li>
+            <li>
+                <span class="section-number">3.2 </span>Enums
+            </li>
+            <li>
+                <span class="section-number">3.3 </span>constants 常量
+            </li>
+        </ul>
     </li>
     <li>
         <span class="section-number">4. </span>Variable Bindings 变量绑定
+        <ul>
+            <li>
+                <span class="section-number">4.1 </span>Mutability(可变性)
+            </li>
+            <li>
+                <span class="section-number">4.2 </span>Scope and Shadowning
+            </li>
+            <li>
+                <span class="section-number">4.3 </span>Declare first(先声明,后bingding)
+            </li>
+            <li>
+                <span class="section-number">4.4 </span>Freezing
+            </li>
+        </ul>
+
     </li>
     <li>
         <span class="section-number">5. </span>Types 类型
+        <ul>
+            <li>
+                <span class="section-number">5.1 </span>Casting(转换)
+            </li>
+            <li>
+                <span class="section-number">5.2 </span>Literals(字面量)
+            </li>
+            <li>
+                <span class="section-number">5.3 </span>Inference(类型推导)
+            </li>
+            <li>
+                <span class="section-number">5.4 </span>Aliasing(别名)
+            </li>
+        </ul>
     </li>
     <li>
         <span class="section-number">6. </span>Conversion 转换
+        <ul>
+            <li>
+                <span class="section-number">6.1 </span>From and Into
+            </li>
+            <li>
+                <span class="section-number">6.2 </span>TryFrom and TryInto
+            </li>
+            <li>
+                <span class="section-number">6.3 </span>To and from Strings
+            </li>
+        </ul>
 
     </li>
     <li>
@@ -23,23 +74,130 @@
 
     </li>
     <li>
-        <span class="section-number">8. </span>Flow of Control 流程控制
+        <span class="section-number">8 </span>Flow of Control 流程控制
+        <ul>
+            <li>
+                <span class="section-number">8.5 </span>match
+                <ul>
+                    <li>
+                        <span class="section-number">8.5.1 </span> 解构
+                    </li>
+                    <li>
+                        <span class="section-number">8.5.2 </span>Guards 守卫
+                    </li>
+                    <li>
+                        <span class="section-number">8.5.3 </span>Binding
+                    </li>
+                </ul>
+
+            </li>
+            <li>
+                <span class="section-number">8.6 </span>if let
+            </li>
+            <li>
+                <span class="section-number">8.6 </span>while let
+            </li>
+        </ul>
+
 
     </li>
     <li>
         <span class="section-number">9. </span>Functions 函数
+        <ul>
+            <li>
+                <span class="section-number">9.1 </span>方法
+            </li>
+            <li>
+                <span class="section-number">9.2 </span>闭包
+            </li>
+        </ul>
     </li>
 
     <li>
-        <span class="section-number">10. </span>Generics 泛型
+        <span class="section-number">14. </span>Generics 泛型
+        <ul>
+            <li>
+                <span class="section-number">14.1 </span>函数
+            </li>
+            <li>
+                <span class="section-number">14.2 </span>实现
+            </li>
+            <li>
+                <span class="section-number">14.3 </span>Trait
+            </li>
+            <li>
+                <span class="section-number">14.4 </span>Bounds
+            </li>
+            <li>
+                <span class="section-number">14.5 </span>Multiple Bounds
+            </li>
+            <li>
+                <span class="section-number">14.6 </span>Where子句
+            </li>
+            <li>
+                <span class="section-number">14.7 </span>New Type Idiom
+            </li>
+            <li>
+                <span class="section-number">14.8 </span>Associated items(关联项)
+            </li>
+            <li>
+                <span class="section-number">14.9 </span>Phantom类型参数
+            </li>
+
+        </ul>
+
     </li>
 
     <li>
-        <span class="section-number">11. </span>Scoping rules 作用域规则
+        <span class="section-number">15. </span>Scoping rules 作用域规则
+        <ul>
+            <li>
+                <span class="section-number">15.1 </span>RAII
+            </li>
+            <li>
+                <span class="section-number">15.2 </span>所有权和转移
+            </li>
+            <li>
+                <span class="section-number">15.3 </span>借用
+            </li>
+            <li>
+                <span class="section-number">15.4 </span>Lifetimes(生命周期)
+            </li>
+        </ul>
+
     </li>
 
     <li>
-        <span class="section-number">12. </span>Traits 特性
+        <span class="section-number">16. </span>Traits 特性
+        <ul>
+            <li>
+                <span class="section-number">16.1 </span>Derive
+            </li>
+            <li>
+                <span class="section-number">16.2 </span>Returing Traits with dyn
+            </li>
+            <li>
+                <span class="section-number">16.3 </span>Operator Overloading(操作符重载)
+            </li>
+            <li>
+                <span class="section-number">16.4 </span>Drop trait
+            </li>
+            <li>
+                <span class="section-number">16.5 </span>Iterator(迭代器)
+            </li>
+            <li>
+                <span class="section-number">16.6 </span>impl trait
+            </li>
+            <li>
+                <span class="section-number">16.7 </span>Clone
+            </li>
+            <li>
+                <span class="section-number">16.8 </span>Supertraits
+            </li>
+            <li>
+                <span class="section-number">16.9 </span>Disambiguating overlapping traits
+            </li>
+        </ul>
     </li>
 
 
